@@ -26,7 +26,7 @@ public class FleetOfCars {
                System.out.println(car);
            }
 
-        return "This total cost is " + getTotalRegistrationFeeForFleet()+ "Kr";
+        return "The total fee cost for this fleet of cars is " + getTotalRegistrationFeeForFleet()+ "Kr";
         }
     }
 

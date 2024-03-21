@@ -50,6 +50,6 @@ public int getWhPrKm(){
     }
 
     public String toString(){
-    return "This fee is "+getRegistrationFee()+" and the watt per KM "+getWhPrKm() +"\n"+"Model:"+ getModel()+ "\n"+"Registration number: "+ getRegistrationNumber();
+    return "The registration fee is "+getRegistrationFee()+"Kr"+"\n"+"Brand: "+ getMake()+"\n"+"Model: "+ getModel()+ "\n"+"Registration number: "+ getRegistrationNumber();
     }
 }

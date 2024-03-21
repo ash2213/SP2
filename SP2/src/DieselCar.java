@@ -39,6 +39,6 @@ public class DieselCar extends AFuelCar{
     }
 
     public String toString(){
-        return "This fee is "+getRegistrationFee()+"\n"+"Model:"+ getModel()+ "\n"+"Registration number: "+ getRegistrationNumber()+"\n"+"Fueltype: "+ getFuelType();
+        return "\n"+"The registration fee is "+getRegistrationFee()+"Kr"+"\n"+"Brand: "+getMake()+"\n"+"Model:"+ getModel()+ "\n"+"Registration number: "+ getRegistrationNumber()+"\n"+"Fueltype: "+ getFuelType();
     }
 }
