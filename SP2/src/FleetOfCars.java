@@ -22,11 +22,13 @@ public class FleetOfCars {
         @Override
 
         public String toString(){
+        StringBuilder output= new StringBuilder("Cars in fleet: \n \n");
            for(Car car: fleet){
-               System.out.println(car);
+               output.append(car.toString()).append("\n");
+
            }
 
-        return "The total fee cost for this fleet of cars is " + getTotalRegistrationFeeForFleet()+ "Kr";
+        return output.toString();
         }
     }
 
